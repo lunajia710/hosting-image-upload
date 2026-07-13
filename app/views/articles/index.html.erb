@@ -3,6 +3,8 @@
 <% content_for :title, "Articles" %>
 
 <h1>Articles</h1>
+<%= cl_image_tag("sqvjtizveuqsttjibi3s",
+      width: 400, height: 300, crop: :fill) %>
 
 <div id="articles">
   <% @articles.each do |article| %>

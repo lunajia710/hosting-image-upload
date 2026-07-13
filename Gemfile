@@ -6,6 +6,7 @@ gem "sprockets-rails"
 gem "bootstrap", "~> 5.3"
 gem "simple_form"
 gem "sassc-rails"
+gem "cloudinary"
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
 # Use the Puma web server [https://github.com/puma/puma]
